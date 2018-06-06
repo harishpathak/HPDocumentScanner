@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Verdana.ttf">
+            <string>Verdana</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CameraOverlay">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="s0h-iS-wWr">
+                    <rect key="frame" x="0.0" y="547" width="375" height="120"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eeA-eb-5m5">
+                            <rect key="frame" x="0.0" y="0.0" width="75" height="120"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQ0-RS-gVB">
+                                    <rect key="frame" x="10" y="10" width="55" height="100"/>
+                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
+                                    <state key="normal" title="Back"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="OQ0-RS-gVB" firstAttribute="leading" secondItem="eeA-eb-5m5" secondAttribute="leading" constant="10" id="MzX-aL-1dU"/>
+                                <constraint firstItem="OQ0-RS-gVB" firstAttribute="top" secondItem="eeA-eb-5m5" secondAttribute="top" constant="10" id="RSg-ZY-Tsf"/>
+                                <constraint firstAttribute="bottom" secondItem="OQ0-RS-gVB" secondAttribute="bottom" constant="10" id="dRA-rv-RAV"/>
+                                <constraint firstAttribute="trailing" secondItem="OQ0-RS-gVB" secondAttribute="trailing" constant="10" id="mlw-fJ-Iak"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsP-13-4Lh">
+                            <rect key="frame" x="75" y="0.0" width="75" height="120"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="mf6-RK-bWe">
+                                    <rect key="frame" x="17.5" y="40" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="lnD-jk-qtN"/>
+                                        <constraint firstAttribute="height" constant="40" id="qtu-LM-758"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naa-p5-Ijm">
+                                    <rect key="frame" x="47.5" y="30" width="20" height="20"/>
+                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0093617555427760735" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="4ND-Yh-XfZ"/>
+                                        <constraint firstAttribute="width" constant="20" id="Vqx-Xm-eIE"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="mf6-RK-bWe" firstAttribute="top" secondItem="naa-p5-Ijm" secondAttribute="bottom" constant="-10" id="0p2-Lt-JtH"/>
+                                <constraint firstItem="mf6-RK-bWe" firstAttribute="centerX" secondItem="bsP-13-4Lh" secondAttribute="centerX" id="5SI-nL-fUs"/>
+                                <constraint firstItem="naa-p5-Ijm" firstAttribute="leading" secondItem="mf6-RK-bWe" secondAttribute="trailing" constant="-10" id="KW9-Xq-X41"/>
+                                <constraint firstItem="mf6-RK-bWe" firstAttribute="centerY" secondItem="bsP-13-4Lh" secondAttribute="centerY" id="aF2-H5-bJz"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qiJ-8T-CAq">
+                            <rect key="frame" x="150" y="0.0" width="75" height="120"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqX-28-vEJ">
+                                    <rect key="frame" x="12" y="35" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="0qp-Es-6CE"/>
+                                        <constraint firstAttribute="height" constant="50" id="syL-V7-UQ2"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="70" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Single" backgroundImage="icon-camera"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="eqX-28-vEJ" firstAttribute="centerY" secondItem="qiJ-8T-CAq" secondAttribute="centerY" id="9Qd-Gf-SHa"/>
+                                <constraint firstItem="eqX-28-vEJ" firstAttribute="centerX" secondItem="qiJ-8T-CAq" secondAttribute="centerX" id="9xg-wF-qlg"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="btK-41-drd">
+                            <rect key="frame" x="225" y="0.0" width="75" height="120"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAD-18-RG5">
+                                    <rect key="frame" x="12" y="35" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="P06-7f-o3P"/>
+                                        <constraint firstAttribute="width" constant="50" id="W5K-le-6Ts"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
+                                    <inset key="titleEdgeInsets" minX="0.0" minY="70" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Batch" backgroundImage="camera_plus"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="YAD-18-RG5" firstAttribute="centerX" secondItem="btK-41-drd" secondAttribute="centerX" id="5wu-hh-83l"/>
+                                <constraint firstItem="YAD-18-RG5" firstAttribute="centerY" secondItem="btK-41-drd" secondAttribute="centerY" id="KfX-l8-JPv"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egI-Ai-ybw">
+                            <rect key="frame" x="300" y="0.0" width="75" height="120"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJA-2Q-x2x">
+                                    <rect key="frame" x="10" y="10" width="55" height="100"/>
+                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
+                                    <state key="normal" title="Done"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="gJA-2Q-x2x" secondAttribute="trailing" constant="10" id="91d-Fd-Hsp"/>
+                                <constraint firstItem="gJA-2Q-x2x" firstAttribute="top" secondItem="egI-Ai-ybw" secondAttribute="top" constant="10" id="FC3-hn-r3w"/>
+                                <constraint firstAttribute="bottom" secondItem="gJA-2Q-x2x" secondAttribute="bottom" constant="10" id="Qej-lP-0kx"/>
+                                <constraint firstItem="gJA-2Q-x2x" firstAttribute="leading" secondItem="egI-Ai-ybw" secondAttribute="leading" constant="10" id="eUG-X8-lsX"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="2av-TA-8CH"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="s0h-iS-wWr" secondAttribute="trailing" id="6Qb-Qv-TwQ"/>
+                <constraint firstItem="s0h-iS-wWr" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="MW8-AL-lww"/>
+                <constraint firstItem="s0h-iS-wWr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dXX-7g-dCU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnBack" destination="OQ0-RS-gVB" id="HKS-ro-0v2"/>
+                <outlet property="btnBatchMode" destination="YAD-18-RG5" id="0S8-X8-4GF"/>
+                <outlet property="btnFinish" destination="gJA-2Q-x2x" id="xgM-Qd-adM"/>
+                <outlet property="btnSingleMode" destination="eqX-28-vEJ" id="CUX-wD-EqZ"/>
+                <outlet property="imgVwPreview" destination="mf6-RK-bWe" id="rsV-hH-ixg"/>
+                <outlet property="lblBadge" destination="naa-p5-Ijm" id="9A4-GD-wp2"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="76.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_plus" width="512" height="512"/>
+        <image name="icon-camera" width="512" height="512"/>
+        <image name="photo-placeholder" width="80" height="80"/>
+    </resources>
+</document>

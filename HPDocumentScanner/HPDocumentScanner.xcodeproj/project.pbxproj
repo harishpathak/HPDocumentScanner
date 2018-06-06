@@ -3,84 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1C70CBE1CE5A155007FD475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C70CB11CE5A155007FD475 /* AppDelegate.m */; };
-		B1C70CBF1CE5A155007FD475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C70CB21CE5A155007FD475 /* LaunchScreen.storyboard */; };
-		B1C70CC01CE5A155007FD475 /* HPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C70CB51CE5A155007FD475 /* HPCollectionViewCell.m */; };
-		B1C70CC11CE5A155007FD475 /* HPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C70CB61CE5A155007FD475 /* HPCollectionViewCell.xib */; };
-		B1C70CC21CE5A155007FD475 /* HPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C70CB81CE5A155007FD475 /* HPHomeViewController.m */; };
-		B1C70CC31CE5A155007FD475 /* HPPDFImageConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C70CBA1CE5A155007FD475 /* HPPDFImageConverter.m */; };
-		B1C70CC41CE5A155007FD475 /* HPPDFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C70CBC1CE5A155007FD475 /* HPPDFListViewController.m */; };
-		B1C70CC71CE5A17B007FD475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C70CC61CE5A17B007FD475 /* main.m */; };
-		B1C70CCA1CE5A198007FD475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C70CC81CE5A198007FD475 /* Main.storyboard */; };
-		B1C70CCC1CE5A1B2007FD475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C70CCB1CE5A1B2007FD475 /* Assets.xcassets */; };
-		B1C70CD11CE5A651007FD475 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1C70CD01CE5A651007FD475 /* Info.plist */; };
-		B1E8E0D71CE2E5C1009D9844 /* HPDocumentScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8E0D61CE2E5C1009D9844 /* HPDocumentScannerTests.m */; };
-		B1E8E0E21CE2E5C1009D9844 /* HPDocumentScannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8E0E11CE2E5C1009D9844 /* HPDocumentScannerUITests.m */; };
+		5D503D6C20BEB1100092812D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D6B20BEB1100092812D /* AppDelegate.m */; };
+		5D503D7220BEB1100092812D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D503D7020BEB1100092812D /* Main.storyboard */; };
+		5D503D7420BEB1100092812D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D503D7320BEB1100092812D /* Assets.xcassets */; };
+		5D503D7720BEB1100092812D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D503D7520BEB1100092812D /* LaunchScreen.storyboard */; };
+		5D503D7A20BEB1100092812D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D7920BEB1100092812D /* main.m */; };
+		5D503D8920BEB1560092812D /* HPPDFImageConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D8020BEB1520092812D /* HPPDFImageConverter.m */; };
+		5D503D8A20BEB1560092812D /* FolderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D503D8320BEB1530092812D /* FolderCollectionViewCell.xib */; };
+		5D503D8B20BEB1560092812D /* DocumentListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D8420BEB1540092812D /* DocumentListVC.m */; };
+		5D503D8C20BEB1560092812D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D8620BEB1550092812D /* HomeViewController.m */; };
+		5D503D8D20BEB1560092812D /* FolderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D8720BEB1550092812D /* FolderCollectionViewCell.m */; };
+		5D503D8F20BEB3B80092812D /* CameraOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D503D8E20BEB3B80092812D /* CameraOverlay.xib */; };
+		5D503D9420BEB75E0092812D /* CameraOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D503D9320BEB75E0092812D /* CameraOverlay.m */; };
+		5D68902620C5116700D065EF /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D68902520C5116700D065EF /* FileHelper.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B1E8E0D31CE2E5C1009D9844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B1E8E0B11CE2E5C0009D9844 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B1E8E0B81CE2E5C0009D9844;
-			remoteInfo = CradScanner;
-		};
-		B1E8E0DE1CE2E5C1009D9844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B1E8E0B11CE2E5C0009D9844 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B1E8E0B81CE2E5C0009D9844;
-			remoteInfo = CradScanner;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		B1C70CB01CE5A155007FD475 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HPDocumentScanner/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		B1C70CB11CE5A155007FD475 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HPDocumentScanner/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		B1C70CB31CE5A155007FD475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HPDocumentScanner/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		B1C70CB41CE5A155007FD475 /* HPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPCollectionViewCell.h; path = HPDocumentScanner/HPCollectionViewCell.h; sourceTree = SOURCE_ROOT; };
-		B1C70CB51CE5A155007FD475 /* HPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPCollectionViewCell.m; path = HPDocumentScanner/HPCollectionViewCell.m; sourceTree = SOURCE_ROOT; };
-		B1C70CB61CE5A155007FD475 /* HPCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HPCollectionViewCell.xib; path = HPDocumentScanner/HPCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
-		B1C70CB71CE5A155007FD475 /* HPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPHomeViewController.h; path = HPDocumentScanner/HPHomeViewController.h; sourceTree = SOURCE_ROOT; };
-		B1C70CB81CE5A155007FD475 /* HPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPHomeViewController.m; path = HPDocumentScanner/HPHomeViewController.m; sourceTree = SOURCE_ROOT; };
-		B1C70CB91CE5A155007FD475 /* HPPDFImageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPPDFImageConverter.h; path = HPDocumentScanner/HPPDFImageConverter.h; sourceTree = SOURCE_ROOT; };
-		B1C70CBA1CE5A155007FD475 /* HPPDFImageConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPPDFImageConverter.m; path = HPDocumentScanner/HPPDFImageConverter.m; sourceTree = SOURCE_ROOT; };
-		B1C70CBB1CE5A155007FD475 /* HPPDFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPPDFListViewController.h; path = HPDocumentScanner/HPPDFListViewController.h; sourceTree = SOURCE_ROOT; };
-		B1C70CBC1CE5A155007FD475 /* HPPDFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPPDFListViewController.m; path = HPDocumentScanner/HPPDFListViewController.m; sourceTree = SOURCE_ROOT; };
-		B1C70CC61CE5A17B007FD475 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HPDocumentScanner/main.m; sourceTree = SOURCE_ROOT; };
-		B1C70CC91CE5A198007FD475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HPDocumentScanner/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		B1C70CCB1CE5A1B2007FD475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HPDocumentScanner/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		B1C70CD01CE5A651007FD475 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HPDocumentScanner/Info.plist; sourceTree = SOURCE_ROOT; };
-		B1C70CD21CE5A728007FD475 /* HPDocumentScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPDocumentScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C70CD31CE5A7B3007FD475 /* HPDocumentScanner.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPDocumentScanner.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C70CD41CE5A7B3007FD475 /* HPDocumentScanner.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPDocumentScanner.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1E8E0D61CE2E5C1009D9844 /* HPDocumentScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HPDocumentScannerTests.m; path = HPDocumentScannerTests/HPDocumentScannerTests.m; sourceTree = "<group>"; };
-		B1E8E0D81CE2E5C1009D9844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = HPDocumentScannerTests/Info.plist; sourceTree = "<group>"; };
-		B1E8E0E11CE2E5C1009D9844 /* HPDocumentScannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HPDocumentScannerUITests.m; path = HPDocumentScannerUITests/HPDocumentScannerUITests.m; sourceTree = "<group>"; };
-		B1E8E0E31CE2E5C1009D9844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = HPDocumentScannerUITests/Info.plist; sourceTree = "<group>"; };
+		5D503D6720BEB1100092812D /* HPDocumentScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPDocumentScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D503D6A20BEB1100092812D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D503D6B20BEB1100092812D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D503D7120BEB1100092812D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D503D7320BEB1100092812D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D503D7620BEB1100092812D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D503D7820BEB1100092812D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D503D7920BEB1100092812D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D503D8020BEB1520092812D /* HPPDFImageConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPDFImageConverter.m; sourceTree = "<group>"; };
+		5D503D8120BEB1520092812D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5D503D8220BEB1530092812D /* FolderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderCollectionViewCell.h; sourceTree = "<group>"; };
+		5D503D8320BEB1530092812D /* FolderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderCollectionViewCell.xib; sourceTree = "<group>"; };
+		5D503D8420BEB1540092812D /* DocumentListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentListVC.m; sourceTree = "<group>"; };
+		5D503D8520BEB1540092812D /* HPPDFImageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPDFImageConverter.h; sourceTree = "<group>"; };
+		5D503D8620BEB1550092812D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5D503D8720BEB1550092812D /* FolderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderCollectionViewCell.m; sourceTree = "<group>"; };
+		5D503D8820BEB1560092812D /* DocumentListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentListVC.h; sourceTree = "<group>"; };
+		5D503D8E20BEB3B80092812D /* CameraOverlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraOverlay.xib; sourceTree = "<group>"; };
+		5D503D9220BEB75E0092812D /* CameraOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraOverlay.h; sourceTree = "<group>"; };
+		5D503D9320BEB75E0092812D /* CameraOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraOverlay.m; sourceTree = "<group>"; };
+		5D68902420C5116700D065EF /* FileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		5D68902520C5116700D065EF /* FileHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1E8E0B61CE2E5C0009D9844 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1E8E0CF1CE2E5C1009D9844 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1E8E0DA1CE2E5C1009D9844 /* Frameworks */ = {
+		5D503D6420BEB1100092812D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,287 +58,223 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B1E8E0B01CE2E5C0009D9844 = {
+		5D4574B420C668FA00E14B7D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B1E8E0BB1CE2E5C1009D9844 /* HPDocumentScanner */,
-				B1E8E0D51CE2E5C1009D9844 /* HPDocumentScannerTests */,
-				B1E8E0E01CE2E5C1009D9844 /* HPDocumentScannerUITests */,
-				B1C70CD21CE5A728007FD475 /* HPDocumentScanner.app */,
-				B1C70CD31CE5A7B3007FD475 /* HPDocumentScanner.xctest */,
-				B1C70CD41CE5A7B3007FD475 /* HPDocumentScanner.xctest */,
+				5D503D6A20BEB1100092812D /* AppDelegate.h */,
+				5D503D6B20BEB1100092812D /* AppDelegate.m */,
+				5D503D7020BEB1100092812D /* Main.storyboard */,
+				5D503D7320BEB1100092812D /* Assets.xcassets */,
+				5D503D7520BEB1100092812D /* LaunchScreen.storyboard */,
+				5D503D7820BEB1100092812D /* Info.plist */,
+				5D503D7920BEB1100092812D /* main.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5D4574B520C6692300E14B7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D503D8220BEB1530092812D /* FolderCollectionViewCell.h */,
+				5D503D8720BEB1550092812D /* FolderCollectionViewCell.m */,
+				5D503D8320BEB1530092812D /* FolderCollectionViewCell.xib */,
+				5D503D8E20BEB3B80092812D /* CameraOverlay.xib */,
+				5D503D9220BEB75E0092812D /* CameraOverlay.h */,
+				5D503D9320BEB75E0092812D /* CameraOverlay.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D4574B620C6694100E14B7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D503D8120BEB1520092812D /* HomeViewController.h */,
+				5D503D8620BEB1550092812D /* HomeViewController.m */,
+				5D503D8820BEB1560092812D /* DocumentListVC.h */,
+				5D503D8420BEB1540092812D /* DocumentListVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5D4574B720C6696100E14B7D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5D68902420C5116700D065EF /* FileHelper.h */,
+				5D68902520C5116700D065EF /* FileHelper.m */,
+				5D503D8520BEB1540092812D /* HPPDFImageConverter.h */,
+				5D503D8020BEB1520092812D /* HPPDFImageConverter.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5D503D5E20BEB1100092812D = {
+			isa = PBXGroup;
+			children = (
+				5D503D6920BEB1100092812D /* HPDocumentScanner */,
+				5D503D6820BEB1100092812D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B1E8E0BB1CE2E5C1009D9844 /* HPDocumentScanner */ = {
+		5D503D6820BEB1100092812D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1C70CD01CE5A651007FD475 /* Info.plist */,
-				B1C70CCB1CE5A1B2007FD475 /* Assets.xcassets */,
-				B1C70CC81CE5A198007FD475 /* Main.storyboard */,
-				B1C70CC61CE5A17B007FD475 /* main.m */,
-				B1C70CB01CE5A155007FD475 /* AppDelegate.h */,
-				B1C70CB11CE5A155007FD475 /* AppDelegate.m */,
-				B1C70CB21CE5A155007FD475 /* LaunchScreen.storyboard */,
-				B1C70CB41CE5A155007FD475 /* HPCollectionViewCell.h */,
-				B1C70CB51CE5A155007FD475 /* HPCollectionViewCell.m */,
-				B1C70CB61CE5A155007FD475 /* HPCollectionViewCell.xib */,
-				B1C70CB71CE5A155007FD475 /* HPHomeViewController.h */,
-				B1C70CB81CE5A155007FD475 /* HPHomeViewController.m */,
-				B1C70CB91CE5A155007FD475 /* HPPDFImageConverter.h */,
-				B1C70CBA1CE5A155007FD475 /* HPPDFImageConverter.m */,
-				B1C70CBB1CE5A155007FD475 /* HPPDFListViewController.h */,
-				B1C70CBC1CE5A155007FD475 /* HPPDFListViewController.m */,
-				B1E8E0BC1CE2E5C1009D9844 /* Supporting Files */,
+				5D503D6720BEB1100092812D /* HPDocumentScanner.app */,
 			);
-			name = HPDocumentScanner;
-			path = CradScanner;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		B1E8E0BC1CE2E5C1009D9844 /* Supporting Files */ = {
+		5D503D6920BEB1100092812D /* HPDocumentScanner */ = {
 			isa = PBXGroup;
 			children = (
+				5D4574B720C6696100E14B7D /* Utility */,
+				5D4574B620C6694100E14B7D /* Controllers */,
+				5D4574B520C6692300E14B7D /* Views */,
+				5D4574B420C668FA00E14B7D /* Base */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B1E8E0D51CE2E5C1009D9844 /* HPDocumentScannerTests */ = {
-			isa = PBXGroup;
-			children = (
-				B1E8E0D61CE2E5C1009D9844 /* HPDocumentScannerTests.m */,
-				B1E8E0D81CE2E5C1009D9844 /* Info.plist */,
-			);
-			name = HPDocumentScannerTests;
-			path = CradScannerTests;
-			sourceTree = "<group>";
-		};
-		B1E8E0E01CE2E5C1009D9844 /* HPDocumentScannerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B1E8E0E11CE2E5C1009D9844 /* HPDocumentScannerUITests.m */,
-				B1E8E0E31CE2E5C1009D9844 /* Info.plist */,
-			);
-			name = HPDocumentScannerUITests;
-			path = CradScannerUITests;
+			path = HPDocumentScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1E8E0B81CE2E5C0009D9844 /* HPDocumentScanner */ = {
+		5D503D6620BEB1100092812D /* HPDocumentScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1E8E0E61CE2E5C1009D9844 /* Build configuration list for PBXNativeTarget "HPDocumentScanner" */;
+			buildConfigurationList = 5D503D7D20BEB1100092812D /* Build configuration list for PBXNativeTarget "HPDocumentScanner" */;
 			buildPhases = (
-				B1E8E0B51CE2E5C0009D9844 /* Sources */,
-				B1E8E0B61CE2E5C0009D9844 /* Frameworks */,
-				B1E8E0B71CE2E5C0009D9844 /* Resources */,
+				5D503D6320BEB1100092812D /* Sources */,
+				5D503D6420BEB1100092812D /* Frameworks */,
+				5D503D6520BEB1100092812D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = HPDocumentScanner;
-			productName = CradScanner;
-			productReference = B1C70CD21CE5A728007FD475 /* HPDocumentScanner.app */;
+			productName = KotakPOC;
+			productReference = 5D503D6720BEB1100092812D /* HPDocumentScanner.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B1E8E0D11CE2E5C1009D9844 /* HPDocumentScannerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1E8E0E91CE2E5C1009D9844 /* Build configuration list for PBXNativeTarget "HPDocumentScannerTests" */;
-			buildPhases = (
-				B1E8E0CE1CE2E5C1009D9844 /* Sources */,
-				B1E8E0CF1CE2E5C1009D9844 /* Frameworks */,
-				B1E8E0D01CE2E5C1009D9844 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B1E8E0D41CE2E5C1009D9844 /* PBXTargetDependency */,
-			);
-			name = HPDocumentScannerTests;
-			productName = CradScannerTests;
-			productReference = B1C70CD31CE5A7B3007FD475 /* HPDocumentScanner.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B1E8E0DC1CE2E5C1009D9844 /* HPDocumentScannerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1E8E0EC1CE2E5C1009D9844 /* Build configuration list for PBXNativeTarget "HPDocumentScannerUITests" */;
-			buildPhases = (
-				B1E8E0D91CE2E5C1009D9844 /* Sources */,
-				B1E8E0DA1CE2E5C1009D9844 /* Frameworks */,
-				B1E8E0DB1CE2E5C1009D9844 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B1E8E0DF1CE2E5C1009D9844 /* PBXTargetDependency */,
-			);
-			name = HPDocumentScannerUITests;
-			productName = CradScannerUITests;
-			productReference = B1C70CD41CE5A7B3007FD475 /* HPDocumentScanner.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B1E8E0B11CE2E5C0009D9844 /* Project object */ = {
+		5D503D5F20BEB1100092812D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = ASPL;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CRMNEXT;
 				TargetAttributes = {
-					B1E8E0B81CE2E5C0009D9844 = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 8Z3NJ84MJU;
-					};
-					B1E8E0D11CE2E5C1009D9844 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = B1E8E0B81CE2E5C0009D9844;
-					};
-					B1E8E0DC1CE2E5C1009D9844 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = B1E8E0B81CE2E5C0009D9844;
+					5D503D6620BEB1100092812D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B1E8E0B41CE2E5C0009D9844 /* Build configuration list for PBXProject "HPDocumentScanner" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 5D503D6220BEB1100092812D /* Build configuration list for PBXProject "HPDocumentScanner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B1E8E0B01CE2E5C0009D9844;
-			productRefGroup = B1E8E0B01CE2E5C0009D9844;
+			mainGroup = 5D503D5E20BEB1100092812D;
+			productRefGroup = 5D503D6820BEB1100092812D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1E8E0B81CE2E5C0009D9844 /* HPDocumentScanner */,
-				B1E8E0D11CE2E5C1009D9844 /* HPDocumentScannerTests */,
-				B1E8E0DC1CE2E5C1009D9844 /* HPDocumentScannerUITests */,
+				5D503D6620BEB1100092812D /* HPDocumentScanner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1E8E0B71CE2E5C0009D9844 /* Resources */ = {
+		5D503D6520BEB1100092812D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C70CC11CE5A155007FD475 /* HPCollectionViewCell.xib in Resources */,
-				B1C70CCA1CE5A198007FD475 /* Main.storyboard in Resources */,
-				B1C70CBF1CE5A155007FD475 /* LaunchScreen.storyboard in Resources */,
-				B1C70CD11CE5A651007FD475 /* Info.plist in Resources */,
-				B1C70CCC1CE5A1B2007FD475 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1E8E0D01CE2E5C1009D9844 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1E8E0DB1CE2E5C1009D9844 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5D503D8A20BEB1560092812D /* FolderCollectionViewCell.xib in Resources */,
+				5D503D7720BEB1100092812D /* LaunchScreen.storyboard in Resources */,
+				5D503D8F20BEB3B80092812D /* CameraOverlay.xib in Resources */,
+				5D503D7420BEB1100092812D /* Assets.xcassets in Resources */,
+				5D503D7220BEB1100092812D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1E8E0B51CE2E5C0009D9844 /* Sources */ = {
+		5D503D6320BEB1100092812D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C70CC31CE5A155007FD475 /* HPPDFImageConverter.m in Sources */,
-				B1C70CBE1CE5A155007FD475 /* AppDelegate.m in Sources */,
-				B1C70CC21CE5A155007FD475 /* HPHomeViewController.m in Sources */,
-				B1C70CC01CE5A155007FD475 /* HPCollectionViewCell.m in Sources */,
-				B1C70CC71CE5A17B007FD475 /* main.m in Sources */,
-				B1C70CC41CE5A155007FD475 /* HPPDFListViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1E8E0CE1CE2E5C1009D9844 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1E8E0D71CE2E5C1009D9844 /* HPDocumentScannerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1E8E0D91CE2E5C1009D9844 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1E8E0E21CE2E5C1009D9844 /* HPDocumentScannerUITests.m in Sources */,
+				5D503D7A20BEB1100092812D /* main.m in Sources */,
+				5D503D8C20BEB1560092812D /* HomeViewController.m in Sources */,
+				5D503D8B20BEB1560092812D /* DocumentListVC.m in Sources */,
+				5D503D9420BEB75E0092812D /* CameraOverlay.m in Sources */,
+				5D503D6C20BEB1100092812D /* AppDelegate.m in Sources */,
+				5D503D8D20BEB1560092812D /* FolderCollectionViewCell.m in Sources */,
+				5D503D8920BEB1560092812D /* HPPDFImageConverter.m in Sources */,
+				5D68902620C5116700D065EF /* FileHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B1E8E0D41CE2E5C1009D9844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B1E8E0B81CE2E5C0009D9844 /* HPDocumentScanner */;
-			targetProxy = B1E8E0D31CE2E5C1009D9844 /* PBXContainerItemProxy */;
-		};
-		B1E8E0DF1CE2E5C1009D9844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B1E8E0B81CE2E5C0009D9844 /* HPDocumentScanner */;
-			targetProxy = B1E8E0DE1CE2E5C1009D9844 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B1C70CB21CE5A155007FD475 /* LaunchScreen.storyboard */ = {
+		5D503D7020BEB1100092812D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B1C70CB31CE5A155007FD475 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B1C70CC81CE5A198007FD475 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1C70CC91CE5A198007FD475 /* Base */,
+				5D503D7120BEB1100092812D /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D503D7520BEB1100092812D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D503D7620BEB1100092812D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B1E8E0E41CE2E5C1009D9844 /* Debug */ = {
+		5D503D7B20BEB1100092812D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -384,38 +288,48 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B1E8E0E51CE2E5C1009D9844 /* Release */ = {
+		5D503D7C20BEB1100092812D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -423,130 +337,65 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B1E8E0E71CE2E5C1009D9844 /* Debug */ = {
+		5D503D7E20BEB1100092812D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/HPDocumentScanner/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUCZ5CDAB2;
+				INFOPLIST_FILE = "$(SRCROOT)/HPDocumentScanner/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.HPDocumentScanner;
-				PRODUCT_NAME = HPDocumentScanner;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.HPDocumentScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B1E8E0E81CE2E5C1009D9844 /* Release */ = {
+		5D503D7F20BEB1100092812D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/HPDocumentScanner/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUCZ5CDAB2;
+				INFOPLIST_FILE = "$(SRCROOT)/HPDocumentScanner/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.HPDocumentScanner;
-				PRODUCT_NAME = HPDocumentScanner;
-				PROVISIONING_PROFILE = "";
-			};
-			name = Release;
-		};
-		B1E8E0EA1CE2E5C1009D9844 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CradScannerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.CradScannerTests;
-				PRODUCT_NAME = HPDocumentScanner;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPDocumentScanner.app/HPDocumentScanner";
-			};
-			name = Debug;
-		};
-		B1E8E0EB1CE2E5C1009D9844 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CradScannerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.CradScannerTests;
-				PRODUCT_NAME = HPDocumentScanner;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPDocumentScanner.app/HPDocumentScanner";
-			};
-			name = Release;
-		};
-		B1E8E0ED1CE2E5C1009D9844 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CradScannerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.CradScannerUITests;
-				PRODUCT_NAME = HPDocumentScanner;
-				TEST_TARGET_NAME = CradScanner;
-			};
-			name = Debug;
-		};
-		B1E8E0EE1CE2E5C1009D9844 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CradScannerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.CradScannerUITests;
-				PRODUCT_NAME = HPDocumentScanner;
-				TEST_TARGET_NAME = CradScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.HPDocumentScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1E8E0B41CE2E5C0009D9844 /* Build configuration list for PBXProject "HPDocumentScanner" */ = {
+		5D503D6220BEB1100092812D /* Build configuration list for PBXProject "HPDocumentScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1E8E0E41CE2E5C1009D9844 /* Debug */,
-				B1E8E0E51CE2E5C1009D9844 /* Release */,
+				5D503D7B20BEB1100092812D /* Debug */,
+				5D503D7C20BEB1100092812D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1E8E0E61CE2E5C1009D9844 /* Build configuration list for PBXNativeTarget "HPDocumentScanner" */ = {
+		5D503D7D20BEB1100092812D /* Build configuration list for PBXNativeTarget "HPDocumentScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1E8E0E71CE2E5C1009D9844 /* Debug */,
-				B1E8E0E81CE2E5C1009D9844 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1E8E0E91CE2E5C1009D9844 /* Build configuration list for PBXNativeTarget "HPDocumentScannerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1E8E0EA1CE2E5C1009D9844 /* Debug */,
-				B1E8E0EB1CE2E5C1009D9844 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1E8E0EC1CE2E5C1009D9844 /* Build configuration list for PBXNativeTarget "HPDocumentScannerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1E8E0ED1CE2E5C1009D9844 /* Debug */,
-				B1E8E0EE1CE2E5C1009D9844 /* Release */,
+				5D503D7E20BEB1100092812D /* Debug */,
+				5D503D7F20BEB1100092812D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B1E8E0B11CE2E5C0009D9844 /* Project object */;
+	rootObject = 5D503D5F20BEB1100092812D /* Project object */;
 }

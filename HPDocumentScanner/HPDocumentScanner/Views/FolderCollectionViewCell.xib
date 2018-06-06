@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Verdana.ttf">
+            <string>Verdana</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imageCell" id="gTV-IL-0wX" customClass="FolderCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="133"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="133"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Closed_Folder" translatesAutoresizingMaskIntoConstraints="NO" id="Aup-Ar-Tlx">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="113"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjW-3y-emD">
+                        <rect key="frame" x="0.0" y="113" width="130" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="CdB-Vo-pwE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                        <color key="textColor" red="0.001220703125" green="0.57912868920000005" blue="0.1378309462" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKT-rw-IhN">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="113"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PKT-rw-IhN" secondAttribute="trailing" id="5ok-ON-v5f"/>
+                <constraint firstItem="GjW-3y-emD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8NW-2v-cpa"/>
+                <constraint firstItem="GjW-3y-emD" firstAttribute="top" secondItem="Aup-Ar-Tlx" secondAttribute="bottom" id="C4Z-Q2-VBY"/>
+                <constraint firstItem="PKT-rw-IhN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Gdm-a7-g3V"/>
+                <constraint firstAttribute="bottom" secondItem="GjW-3y-emD" secondAttribute="bottom" id="H08-Wk-QTR"/>
+                <constraint firstItem="Aup-Ar-Tlx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I7n-Zr-PAE"/>
+                <constraint firstItem="PKT-rw-IhN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bML-Sh-Vi1"/>
+                <constraint firstAttribute="trailing" secondItem="Aup-Ar-Tlx" secondAttribute="trailing" id="nmZ-h5-gKt"/>
+                <constraint firstItem="GjW-3y-emD" firstAttribute="top" secondItem="PKT-rw-IhN" secondAttribute="bottom" id="pyf-hl-yPn"/>
+                <constraint firstAttribute="trailing" secondItem="GjW-3y-emD" secondAttribute="trailing" id="qln-ho-BbY"/>
+                <constraint firstItem="Aup-Ar-Tlx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wjg-KF-veD"/>
+            </constraints>
+            <size key="customSize" width="130" height="133"/>
+            <connections>
+                <outlet property="imageCell" destination="Aup-Ar-Tlx" id="e0B-Kk-PAg"/>
+                <outlet property="lblCount" destination="PKT-rw-IhN" id="9Kd-HT-g9N"/>
+                <outlet property="lblDateCreated" destination="GjW-3y-emD" id="ztD-dD-azU"/>
+            </connections>
+            <point key="canvasLocation" x="58" y="109.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Closed_Folder" width="256" height="256"/>
+    </resources>
+</document>
